@@ -29,8 +29,8 @@ Use find and string slicing to extract the portion of the string after the colon
     Sample Line:
         `From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008`
     Sample Execution:
-        Enter a file name: mbox-short.txt
-        {'Fri': 20, 'Thu': 6, 'Sat': 1}
+        `Enter a file name: mbox-short.txt
+        {'Fri': 20, 'Thu': 6, 'Sat': 1}`
 - Exercise 3&4: Write a program to read through a mail log, build a his- togram using a dictionary to count how many messages have come from each email address, and print the dictionary. Add code to the program to figure out who has the most messages in the file.
 - Exercise 5: This program records the domain name where the message was sent from instead of who the mail came from. At the end of the program, print out the contents of your dictionary.
 
