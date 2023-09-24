@@ -23,3 +23,13 @@ Use find and string slicing to extract the portion of the string after the colon
 - Exercise 4: Write a program to open the file romeo.txt and read it line by line. For each line, split the line into a list of words using the split function. For each word, check to see if the word is already in a list. If the word is not in the list, add it to the list. When the program completes, sort and print the resulting words in alphabetical order.
 - Exercise 5: Write a program to read through the mail box data and when you find line that starts with “From”, you will split the line into words using the split function. You will parse the From line and print out the second word for each From line, then you will also count the number of From (not From:) lines and print out a count at the end.
 - Exercise 6: Rewrite the program that prompts the user for a list of numbers and prints out the maximum and minimum of the numbers at the end when the user enters “done”. Write the program to store the numbers the user enters in a list and use the max() and min() functions to compute the maximum and minimum numbers after the loop completes.
+
+## Chapter 9 Dictionaries
+- Exercise 2: Write a program that categorizes each mail message by which day of the week the commit was done. To do this look for lines that start with “From”, then look for the third word and keep a running count of each of the days of the week. At the end of the program print out the contents of your dictionary.
+    Sample Line:
+        From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008
+    Sample Execution:
+        Enter a file name: mbox-short.txt
+        {'Fri': 20, 'Thu': 6, 'Sat': 1}
+- Exercise 3&4: Write a program to read through a mail log, build a his- togram using a dictionary to count how many messages have come from each email address, and print the dictionary. Add code to the program to figure out who has the most messages in the file.
+- Exercise 5: This program records the domain name where the message was sent from instead of who the mail came from. At the end of the program, print out the contents of your dictionary.
